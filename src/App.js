@@ -3,12 +3,13 @@ import './App.css';
 import About from './components/About'
 import ContactForm from './components/Contact';
 import Header from './components/Header';
+import Footer from './components/Footer'
 
 
 function App() {
   return (
     <div>
-
+    
     <main>
       <div className = "About">
       <About></About>
@@ -19,6 +20,9 @@ function App() {
       <div className='Contact'>
         <ContactForm></ContactForm>
 
+      </div>
+      <div className = "Footer">
+        <Footer></Footer>
       </div>
     </main>
     </div>
